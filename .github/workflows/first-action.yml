@@ -7,8 +7,7 @@ jobs:
       - name: Print greeting
         run: |
           echo "Hello World1!"
-            echo "Hello World2!"
+          echo "Hello World2!"
           echo "Hello World3!"
-            echo "123"
       - name: Print goodbye
-        run: echo "Done- bye!"
+        run: echo "Done- bye\n123!"; ls -l
